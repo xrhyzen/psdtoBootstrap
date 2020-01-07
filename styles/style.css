@@ -1,0 +1,205 @@
+#mainHeader {
+  background: #22627E;
+}
+
+#mainHeader nav a {
+  color: #ffffff;
+}
+
+#mainHeader nav a:hover {
+  color: lightblue;
+}
+
+#mainHeader .navbar button span {
+  color: #ffffff;
+}
+
+#mainHeader .navbar button span:hover {
+  color: lightblue;
+}
+
+#mainHeader .navbar-form-search {
+  position: relative;
+}
+
+#mainHeader .navbar-form-search .form-control {
+  width: 250px;
+  text-indent: 23px;
+}
+
+#mainHeader .navbar-form-search .btn {
+  border: 0;
+  background: transparent;
+  font-size: 18px;
+}
+
+#mainHeader .navbar-form-search .btn:active, #mainHeader .navbar-form-search .btn:hover, #mainHeader .navbar-form-search .btn:focus {
+  color: #000;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#mainHeader .navbar-form-search .btn span {
+  color: #ffffff;
+}
+
+#mainHeader .navbar-form-search .btn span:hover {
+  color: lightblue;
+}
+
+#mainHeader .navbar-form-search .search-form-container {
+  text-align: right;
+  position: absolute;
+  width: 250px;
+  overflow: hidden;
+  right: 40px;
+  top: -22px;
+  z-index: 9;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#mainHeader .navbar-form-search .search-form-container.hdn {
+  width: 0;
+}
+
+#mainHeader .navbar-form-search .search-form-container .search-input-group {
+  width: 300px;
+}
+
+#mainHeader .navbar-form-search .search-form-container #hide-search-input-container span {
+  position: absolute;
+  left: 12px;
+  top: 32px;
+  color: grey;
+}
+
+#mainHeader .navbar-form-search .search-form-container #hide-search-input-container span:hover {
+  color: #22627E;
+}
+
+.btn-primary {
+  background-color: #5BB6D8;
+  border: none;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.btn-primary:hover {
+  background-color: #22627E;
+}
+
+#slider .carousel-caption {
+  margin-bottom: 200px;
+  text-align: left;
+  width: 25%;
+}
+
+#slider .carousel-caption span {
+  font-size: 12px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+#slider .carousel-caption p {
+  color: grey;
+  font-size: 14px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+#services .mainService {
+  background-color: #22627E;
+  height: auto;
+  color: white;
+  z-index: 1;
+}
+
+#services .mainService h3 {
+  margin-bottom: 20px;
+}
+
+#services .mainService P {
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+#services .servicesItem {
+  text-align: center;
+}
+
+#services .servicesItem p {
+  margin: 20px 0 20px 0;
+  font-size: 12px;
+  color: grey;
+}
+
+@media (max-width: 575.98px) {
+  .carousel-caption {
+    width: 100% !important;
+    text-align: center !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    top: 10%;
+  }
+  .carousel-caption p {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .carousel-caption {
+    width: 50% !important;
+    text-align: center !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    top: 20%;
+  }
+  .carousel-caption p {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .carousel-caption {
+    width: 50% !important;
+    text-align: center !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    top: 20%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .carousel-caption {
+    width: 80% !important;
+    text-align: center !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    top: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

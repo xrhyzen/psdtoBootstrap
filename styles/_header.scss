@@ -1,0 +1,75 @@
+#mainHeader{
+  background: $primaryColor;
+
+  nav a{
+      color: #ffffff;
+      &:hover{
+          color: lightblue;
+      }
+  }
+
+  .navbar{
+    button{
+      span{
+        color: #ffffff;
+          &:hover{
+            color: lightblue;
+        }
+      }
+    }
+  }
+  .navbar-form-search {
+    position: relative;
+    .form-control {
+      width: 250px;
+      text-indent: 23px;
+    }
+    .btn {
+      border: 0;
+      background: transparent;
+      font-size: 18px;
+      &:active,
+      &:hover,
+      &:focus {
+        color: #000;
+        outline: none;
+        box-shadow: none;
+      }
+        span{
+            color: #ffffff;
+            &:hover{
+                color: lightblue;
+            }
+        }
+
+    }
+    
+    .search-form-container {
+      text-align: right;
+      position: absolute;
+      width: 250px;
+      overflow: hidden;
+      right: 40px;
+      top: -22px;
+      z-index: 9;
+      transition: all .3s ease-in-out;
+        &.hdn {
+            width: 0;
+        }
+        .search-input-group {
+            width: 300px;
+        }
+        #hide-search-input-container span{
+          position: absolute;
+          left: 12px;
+          top: 32px;
+          color: grey;
+            &:hover{
+                color: $primaryColor;
+            }
+        }
+    }
+  }
+
+
+}

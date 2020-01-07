@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86" height="22" viewBox="0 0 86 22">
+  <g id="logo" transform="translate(-138 -17)">
+    <text id="Tronixync" transform="translate(181 34)" fill="#97eaff" font-size="22" font-family="SitkaBanner, Sitka Banner"><tspan x="-42.362" y="0">Tron</tspan><tspan y="0" fill="#e4e4e4">ixync</tspan></text>
+    <path id="Path_3" data-name="Path 3" d="M210.775-37c-.05-.187,2.095-3.447,9.024-1.513s14.163,1.289,18.2-.806c1.57-.815-6.375.036-11.351-1.015C219.584-41.828,213.25-44.28,210.775-37Z" transform="translate(-24 60)" fill="#fff"/>
+  </g>
+</svg>
