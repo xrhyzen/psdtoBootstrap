@@ -184,6 +184,47 @@
   color: #ffffff;
 }
 
+#clients img {
+  opacity: 0.5;
+}
+
+#clients img:hover {
+  opacity: 1;
+}
+
+footer {
+  background-color: #22627E;
+}
+
+footer ul {
+  display: inline-block;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #5A99B5;
+}
+
+footer ul li a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer span {
+  color: #5A99B5;
+  font-size: 12px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
 @media (max-width: 575.98px) {
   .carousel-caption {
     width: 100% !important;

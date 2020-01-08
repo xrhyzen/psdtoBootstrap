@@ -75,6 +75,7 @@
        margin-top: 20px;
     }
 }
+//testimonial
 #testimonials{
     @include fixedBackground();
     background-image: url(../images/background/testimonials/working-lady.jpg);
@@ -96,5 +97,40 @@
     }
 
 }
+//our clients
+#clients{
+    img{
+        opacity: 0.5;
+        &:hover{
+            opacity:1;
+        }
+    }
+}
+//footer{
+    footer{
+        background-color: $primaryColor;
+        ul{
+            display: inline-block;
+            padding: 0;
+            li{
+                display: inline-block;
+                padding: 10px;
+                @include standardFont();
+                a{
+                    text-decoration: none;
+                    color: #5A99B5;
+                    &:hover{
+                        color: #ffffff;
+                        text-decoration: none;
 
+                    }
+                }
+            }
+        }
+        span{
+            color: #5A99B5;
+            @include smallestFont();
+        }
+    }
+//media queries
 @import "./_mediaQueries";
