@@ -79,72 +79,6 @@
   color: #22627E;
 }
 
-@media (max-width: 575.98px) {
-  .carousel-caption {
-    width: 100% !important;
-    text-align: center !important;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    margin-bottom: 0px;
-    top: 10%;
-  }
-  .carousel-caption p {
-    display: none;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .carousel-caption {
-    width: 50% !important;
-    text-align: center !important;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    margin-bottom: 0px;
-    top: 20%;
-  }
-  .carousel-caption p {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .carousel-caption {
-    width: 50% !important;
-    text-align: center !important;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    margin-bottom: 0px;
-    top: 20%;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .carousel-caption {
-    width: 80% !important;
-    text-align: center !important;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    margin-bottom: 0px;
-    top: 50%;
-  }
-}
-
 .btn-primary {
   background-color: #5BB6D8;
   border: none;
@@ -204,8 +138,118 @@
 }
 
 #ctaContact {
-  background: url("/images/slides/slider-image01.jpg") no-repeat center-center;
+  background: top center/cover no-repeat fixed padding-box border-box #ccc;
   background-size: cover;
-  background: #000;
+  background-image: url(../images/background/cta/big-foggy-city.jpg);
+}
+
+#ctaContact p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#about p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 25px;
+  color: grey;
+  margin-top: 20px;
+}
+
+#testimonials {
+  background: top center/cover no-repeat fixed padding-box border-box #ccc;
+  background-size: cover;
+  background-image: url(../images/background/testimonials/working-lady.jpg);
+}
+
+#testimonials .profileImg {
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  width: 66px;
+  height: 66px;
+}
+
+#testimonials p {
+  font-size: 14px;
+  font-weight: 100;
+  color: #ffffff;
+  height: auto;
+  font-style: italic;
+}
+
+#testimonials span {
+  color: #ffffff;
+}
+
+@media (max-width: 575.98px) {
+  .carousel-caption {
+    width: 100% !important;
+    text-align: center !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    top: 10%;
+  }
+  .carousel-caption p {
+    display: none;
+  }
+  #testimonials {
+    height: 520px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .carousel-caption {
+    width: 50% !important;
+    text-align: center !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    top: 20%;
+  }
+  .carousel-caption p {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .carousel-caption {
+    width: 50% !important;
+    text-align: center !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    top: 20%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .carousel-caption {
+    width: 80% !important;
+    text-align: center !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    top: 50%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
